@@ -14,7 +14,6 @@ def disgenet_api_request_string(items_to_query: tuple, endpoint: str, page_num: 
 
     json_dict = {}
     params = {}
-    API_KEY = "1eb0b8dc-b975-4fc4-b41c-03dcb26a1117"  # ricard premium api key.     "6b2d3b03-7f44-49e1-8801-d9bbc948afe7" # janet developer api key
     params['page_number'] = page_num  # page_number default value is 0. Shows 100 top variant-disease (VD) associations, ordered by descending VD score
     # params['skey'] = "pkdgnpswd"
     # params['page_size'] = '10'
